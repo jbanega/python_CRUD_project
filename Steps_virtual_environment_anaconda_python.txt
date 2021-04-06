@@ -1,0 +1,14 @@
+Create virtual environment with anaconda
+Reference: https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+
+1. Create virtual environment for the project
+conda create -n yourenvname python=x.x [anaconda]
+
+2. Activate virtual environment
+conda activate yourenvname
+
+3. Install packages in virtual environment
+conda install -n yourenvname [package]
+
+4. Deactive virtual environment
+conda deactivate
